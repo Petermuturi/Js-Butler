@@ -1,6 +1,3 @@
-body {
-  background-color: rgba(0,0,0,0.8);
-}
 .header {
   text-align:center;
   font-weight:100;
@@ -19,4 +16,10 @@ body {
   background-color: #fff;
   color: #26a498 !important;
   border: 1px solid #26a498;
+}
+.link {
+ text-decoration: underline;
+}
+.list {
+  margin-top:10px;
 }
