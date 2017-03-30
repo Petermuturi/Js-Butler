@@ -1,10 +1,10 @@
 body {
-  background-color: #ccc;
+  background-color: rgba(0,0,0,0.8);
 }
 .header {
   text-align:center;
   font-weight:100;
-  font-size: 80px;
+  font-size: 50px;
 }
 .cent {
   text-align: center;
