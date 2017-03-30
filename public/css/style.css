@@ -1,0 +1,22 @@
+body {
+  background-color: #ccc;
+}
+.header {
+  text-align:center;
+  font-weight:100;
+  font-size: 80px;
+}
+.cent {
+  text-align: center;
+}
+.btn-speak {
+  background-color: #26a498;
+  font-size: 30px !important;
+  color: #fff;
+  border: 1px solid #26a498;
+}
+.btn-speak:hover {
+  background-color: #fff;
+  color: #26a498 !important;
+  border: 1px solid #26a498;
+}
