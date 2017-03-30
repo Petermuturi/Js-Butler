@@ -12,4 +12,4 @@ nunjucks.configure('./src', {
 
 app.get('/', (req, res)=> res.render('templates/index.njk'));
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
