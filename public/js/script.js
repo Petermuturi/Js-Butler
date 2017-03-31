@@ -9,8 +9,8 @@ function listen(){
       const command = event.results[0][0].transcript;
       const action_asked = command.split(' ').shift();
       switch (action_asked) {
-        case "Google":
-          window.open('https://google.com/search?q='+command.split(' ').slice(1).join("+"));
+        case "find":
+          window.open('https://duckduckgo.com/?q=\\'+command.split(' ').slice(1).join("+"));
           break;
         default:
 
