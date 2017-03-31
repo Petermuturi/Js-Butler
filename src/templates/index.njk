@@ -2,26 +2,19 @@
 {% extends 'layouts/index.html' %}
 
 {% block content %}
-<div class="container" style="margin:0; padding:0;">
-  <div class="row">
-    <div class="col-md-3 well" style="height:100vh;">
-      <h1 class="header">JS-Butler</h1>
-      <div class="cent" style="margin-top:40px;">
-        <button type="button" onclick='return listen();' class="btn btn-speak" name="button">
-          <i class="fa fa-microphone" aria-hidden="true"></i>
-        </button>
+<div class="well" style="height:100vh; width:100vw;">
+  <h1 class="header">JS-Butler</h1>
+  <div class="cent" style="margin-top:40px;">
+    <button type="button" onclick='return listen();' class="btn btn-speak" name="button">
+      <i class="fa fa-microphone" aria-hidden="true"></i>
+    </button>
+  </div>
+  <div class="cent" style="margin-top:40px;">
+    <a data-toggle="collapse" href="#collapseCommands" aria-expanded="false" aria-controls="collapseCommands" class="link">List of commands</a>
+    <div class="collapse" id="collapseCommands">
+      <div class="list">
+        <code>Find {what you want to google}</code>
       </div>
-      <div class="cent" style="margin-top:40px;">
-        <a data-toggle="collapse" href="#collapseCommands" aria-expanded="false" aria-controls="collapseCommands" class="link">List of commands</a>
-        <div class="collapse" id="collapseCommands">
-          <div class="list">
-            <code>Find {what you want to google}</code>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-9">
-
     </div>
   </div>
 </div>
